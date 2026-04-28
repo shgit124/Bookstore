@@ -35,6 +35,6 @@ const applicationSchema=new mongoose.Schema({
     }
 })
 
-const appplications=mongoose.model('application',applicationSchema)
+const applications=mongoose.model('application',applicationSchema)
 
-module.exports=appplications
+module.exports=applications
