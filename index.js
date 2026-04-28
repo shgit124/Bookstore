@@ -27,9 +27,9 @@ app.use(routes)
 // serving apps
 app.use('/uploadImg',express.static('bookImages'))
 // serving uploaded resume to clint side
-app.use('/uploadImg',express.static('resumFiles'))
+app.use('/uploadResume',express.static('resumFiles'))
 //setting a specific port number
-const PORT=8000
+const PORT=process.env.PORT || 8000
 
 // //requist handler
 // const reqHandler=(req,res)=>{
