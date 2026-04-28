@@ -8,7 +8,7 @@ const userController=require(`../Controller/userController`)
 const bookcontroller=require('../Controller/bookController')
 const jobcontroller=require('../Controller/jobController')
 //const applicationController=require('../controller/ApplicationController')
-const applicationcontroller=require('../Controller/ApplicationController')
+const applicationController=require('../Controller/applicationController')
 const adminjwtmiddle=require('../Middilewares/adminJwtMiddileware')
 
 const router=express.Router()
