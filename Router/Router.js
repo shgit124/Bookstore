@@ -7,7 +7,7 @@ const pdfmulterConfig=require('../Middilewares/Pdfmultermiddilware')
 const userController=require(`../Controller/userController`)
 const bookcontroller=require('../Controller/bookController')
 const jobcontroller=require('../Controller/jobController')
-const applicationController=require('../controller/Applicationcontroller')
+const applicationController=require('../controller/ApplicationController')
 const adminjwtmiddle=require('../Middilewares/adminJwtMiddileware')
 
 const router=express.Router()
