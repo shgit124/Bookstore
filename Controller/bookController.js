@@ -4,7 +4,7 @@
 //checking part
 //..... book related ayittulla operation nadathan vendi bookcontroller use cheyyunnu
     const books=require('../Models/bookmodel')
-    const stripe=require('stripe')('sk_test_51TPEUIAMbhipzPpiVB5shy8bvbbOnwcr7Ey34yambMrvPhEitNHUwzwxAkEds2oZD8EiQUIX97FhfehazNOMSKTD00AgzwNagv')
+    const stripe=require('stripe')(' SECRET_STIPE')
 
 // ADD BOOKS
     exports.addbook=async (req,res)=>{
